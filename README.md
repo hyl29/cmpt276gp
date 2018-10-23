@@ -1,57 +1,10 @@
 # SFU CMPT276 Fall 2015 Group 7 Project
-
-Group 7 Project. Will be documented... eventually.
+**As of October 22, 2018, this repository is only for reference purposes. There are too many security vulnerabilities as well as dependency issues so it probably won't run when deployed anyways. Not to mention outdated API tokens, etc.**
+SMCrate - Social Media Hub
+Features / Tools:
+- Twitter API integration
+- Fully functional login with [OmniAuth](https://github.com/omniauth/omniauth)
+- Database integration with PostgreSQL
 
 Many thanks to [Michael Hartl's Rails Book](https://www.railstutorial.org/book/frontmatter)
 
-
-#### Some Notes (Jonathan):
-
-##### Remarks (Nov 7):
-
-~~need to complete facebook implementation, but skeleton authentication is working~~
-
-~~create db columns to store fb authentication data~~
-
--[Koala](https://github.com/arsduo/koala) is actually very nicely documented, should use it for our API calls
-
-
-##### Remarks (Nov 8):
-
-~~-finished authentication with facebook, just need to clean up some code~~
-
--should work on interfacing, routes (users can't access other private stuff)
-
-~~-need to familiarize more with Koala API specifically with facebook auth tokens~~
-
-~~-start to do basic API calls on "news feed"~~
-
-##### Remarks (Nov 9):
-
-~~-really need to start work on layout (should ask the group.... if they feel like working on it.......)~~
-
-~~-need to study callbacks (URL) and api calls more... probably need to store all credential data in a DB for calls from pages other than auth/:provider to auth/:provider/callback~~
-
-~~-thus, more migrations!!~~
-
-##### Remarks (Nov 10):
-
--added columns to store user tokens, now can call facebook API calls on other pages
-
--users should be able to log in with facebook and see their name/picture
-
--start to implement other platforms, and add security measures for current authentications
-
-##### Remarks (Nov 19):
-
--authentications slightly more generalized (twitter half implemented)
-
-##### Remarks (Nov 23):
-
--instagram callback url very confusing... possibly just a temporary bug but no time to find out... consider scrapping IG from project unless can fix
-
--post model made, just need to grab posts from twitter and combine them with FB posts
-
-##### Remarks (Nov 25):
-
--add columns to posts to begin combining facebook and twitter posts
