@@ -1,5 +1,5 @@
 # SFU CMPT276 Fall 2015 Group 7 Project
-**As of October 22, 2018, this repository is only for reference purposes. The program may not run due to security vulnerabilities, dependency issues, and outdated API tokens.**
+**As of October 22, 2018, this repository is only for reference purposes. The program may not run when deployed due to possible security vulnerabilities, dependency issues, and outdated API tokens.**
 
 SMCrate - Social Media Hub
 
